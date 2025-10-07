@@ -32,8 +32,8 @@ This project demonstrates:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/snake-robot-controll.git
-   cd snake-robot-controll
+   git clone https://github.com/YOUR_USERNAME/snake-robot-control.git
+   cd snake-robot-control
 2. Open MATLAB and navigate to the project directory.
 3. Run the model (for example, open the Simulink model file and press Run).
 
