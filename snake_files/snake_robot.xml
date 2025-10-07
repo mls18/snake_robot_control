@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="10/06/25||11:21:52" using="Simscape Multibody Link Version 7.4" from="SolidWorks 29.4.1"/>
+<ModelUnits mass="kilogram" length="inch"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="TASTE_SNAKE" uid="TASTE_SNAKE" version="117">
+<AssemblyFile name="TASTE_SNAKE.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="TEST_SNAKE_BRACKET-3" uid="TEST_SNAKE_BRACKET-3" entityUid="TEST_SNAKE_BRACKET*:*Default">
+<Transform>
+<Rotation>0.99948788610068162 -0.031999461526580897 -1.3845261742639892e-16 0.03198624939514922 0.99907521149037359 0.028733284446725588 -0.00091944963018516428 -0.028718569732387362 0.99958711394500455</Rotation>
+<Translation>-0.011307536302905803 0.10220409319948426 0.092089770383233238</Translation>
+</Transform>
+</Instance>
+<Instance name="TEST_SNAKE_BRACKET-5" uid="TEST_SNAKE_BRACKET-5" entityUid="TEST_SNAKE_BRACKET*:*Default">
+<Transform>
+<Rotation>0.99969215593760741 0.024773805035205643 -0.0013608603514385889 -0.024614103633103557 0.99715863225635026 0.071195561792740808 0.0031207786139576966 -0.071140148304053713 0.99746144789666957</Rotation>
+<Translation>-0.015641500278842108 0.20204365449781439 0.087942141949318778</Translation>
+</Transform>
+</Instance>
+<Instance name="TEST_SNAKE_BRACKET-4" uid="TEST_SNAKE_BRACKET-4" entityUid="TEST_SNAKE_BRACKET*:*Default">
+<Transform>
+<Rotation>0.0013608603514388118 -0.031970511367430433 0.9994878861006814 -0.071195561792740836 0.99694938278262013 0.031986249395148984 -0.99746144789666924 -0.071202630374570058 -0.00091944963018515376</Rotation>
+<Translation>-0.012908088382417849 0.15220037034815809 0.091503523109457557</Translation>
+</Transform>
+</Instance>
+<Instance name="TEST_SNAKE_BRACKET-1" uid="TEST_SNAKE_BRACKET-1" grounded="true" entityUid="TEST_SNAKE_BRACKET*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.011947525533437434 0.0022062417320416194 0.092952063210921781</Translation>
+</Transform>
+</Instance>
+<Instance name="TEST_SNAKE_BRACKET-2" uid="TEST_SNAKE_BRACKET-2" entityUid="TEST_SNAKE_BRACKET*:*Default">
+<Transform>
+<Rotation>3.1409647671042159e-16 0 1 -0.028733284446725803 0.99958711394500466 0 -0.99958711394500466 -0.028733284446725803 3.1621350426270868e-16</Rotation>
+<Translation>-0.011947525533437451 0.052214499453141411 0.09352672889985629</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-1</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0.049999999999999996 -0.020000000000000004</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-2</Uid>
+</InstancePath>
+<Position>0.020000000000000004 0 0.015000000000000006</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-1</Uid>
+</InstancePath>
+<Position>0.020000000000000028 0.069999999999999993 0</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-2</Uid>
+</InstancePath>
+<Position>0 0.020000000000000025 -0.024999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-2</Uid>
+</InstancePath>
+<Position>0.014999999999999999 0.049999999999999996 -0.020000000000000004</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-3</Uid>
+</InstancePath>
+<Position>0.020000000000000007 0 -0.015000000000000013</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-2</Uid>
+</InstancePath>
+<Position>0.020000000000000032 0.070000000000000007 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-3</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 -0.024999999999999994</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-3</Uid>
+</InstancePath>
+<Position>0.020000000000000032 0.069999999999999993 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-4</Uid>
+</InstancePath>
+<Position>0 0.01999999999999999 -0.024999999999999981</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-4</Uid>
+</InstancePath>
+<Position>0.014999999999999986 0.049999999999999961 -0.020000000000000011</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-5</Uid>
+</InstancePath>
+<Position>0.02 0 -0.015000000000000027</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-4</Uid>
+</InstancePath>
+<Position>0.020000000000000018 0.069999999999999923 0</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-5</Uid>
+</InstancePath>
+<Position>0 0.020000000000000018 -0.025000000000000008</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-3</Uid>
+</InstancePath>
+<Position>0.015000000000000003 0.049999999999999975 -0.020000000000000004</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TEST_SNAKE_BRACKET-4</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0 0.015000000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="TEST_SNAKE_BRACKET" uid="TEST_SNAKE_BRACKET*:*Default" version="151">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TEST_SNAKE_BRACKET.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.042006352107659961</Mass>
+<CenterOfMass>0 0.036230027464886891 0</CenterOfMass>
+<Inertia>2.7377581219210194e-05 1.2554946069072911e-05 3.1808915049979112e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TEST_SNAKE_BRACKET_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.13725490196078433" g="0.61960784313725492" b="0" a="1"/>
+<Diffuse r="0.13725490196078433" g="0.61960784313725492" b="0" a="1"/>
+<Specular r="0.068627450980392163" g="0.30980392156862746" b="0" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
